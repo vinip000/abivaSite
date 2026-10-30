@@ -1,7 +1,4 @@
 node_modules
 dist
-<<<<<<< HEAD
-=======
-server/data/leads.json
->>>>>>> origin/main
 .env
+server/data/
