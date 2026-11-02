@@ -77,17 +77,20 @@ export default function Home() {
         <div className="container hero-grid">
           <div className="hero-text">
             <BrandMark />
-            <span className="eyebrow">Pesquisa exclusiva</span>
+            <span className="eyebrow">Pesquisas exclusivas</span>
             <h1>
-              O Impacto da <strong>Reforma Tributária</strong>
-              <span> nas empresas de Santa Catarina</span>
+             <strong>Conhecimento</strong> <span> que gera inteligência.</span> Inteligência <span> que orienta decisões.</span>
             </h1>
             <div className="bar" />
             <p>
-              Um estudo da ABIVA, realizado pela UNIVALI com apoio da ASTRA, que analisa os principais
-              impactos da Reforma Tributária para as empresas importadoras de Santa Catarina.
+              A ABIVA se consolida como uma instituição que vai além da representação, atuando como agente de transformação ao promover conhecimento, conexões e soluções que impulsionam o desenvolvimento sustentável do setor de importação, com previsibilidade e segurança jurídica.
+
             </p>
+            <p>Conhecimento: produção técnica qualificada e atuação como Think Tank. </p>
+            <p>Conexão: articulação entre setor privado, poder público e meio acadêmico.</p>
+            <p>Representatividade: fortalecimento da voz do setor nos principais debates.</p>
           </div>
+
 
           <form className="card form-card" onSubmit={onSubmit} noValidate>
             <h2>Acesse a pesquisa completa</h2>
@@ -151,15 +154,8 @@ export default function Home() {
 
       <section className="papel">
         <div className="container papel-inner">
-          <h2>O papel da ABIVA</h2>
-          <div className="bar" />
-          <p>
-            A ABIVA atua como um think tank setorial, produzindo conhecimento, articulando o diálogo com o poder
-            público e defendendo um ambiente regulatório justo, que contribua para a competitividade das empresas
-            e o desenvolvimento do comércio exterior em Santa Catarina e no Brasil.
-          </p>
-          <a className="btn btn-inline" href="#topo" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-            QUERO RECEBER A PESQUISA <IconArrow />
+          <a className="btn btn-inline papel-cta" href="#topo" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
+            QUERO RECEBER AS PESQUISAS <IconArrow />
           </a>
         </div>
       </section>
